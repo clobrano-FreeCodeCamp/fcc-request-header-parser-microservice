@@ -7,6 +7,8 @@ User Story: I can get the IP address, language and operating system for my brows
     - add app.enable('trust proxy'); to the initialization code
     - get IP with req.ip or req.ips
 
+    Update: This actually didn't work. Used ipaware module
+
 * language: use accepts module;
 
 * operating system: use ua-parser-js module.
