@@ -1,17 +1,11 @@
-# fcc-request-header-parser-microservice
-Free Code Camp Backend challenge
+# Request Header Parser
 
-User Story: I can get the IP address, language and operating system for my browser.
+Welcome to Request Header Parser
 
-* address: I'm using express js, so
-    - add app.enable('trust proxy'); to the initialization code
-    - get IP with req.ip or req.ips
+This is a simple microservice that shows some info about the browser you are using. Click here to use this API.
 
-    Update: This actually didn't work. Used ipware module
+The specs of this app come from FreeCode Camp challenge
 
-* language: use accepts module;
+    User Story: I can get the IP address, language and operating system for my browser..
 
-* operating system: use ua-parser-js module.
-
-
-Live demo on heroku https://req-headers-parser.herokuapp.com/api/whoami
+Live demo on [heroku](https://req-headers-parser.herokuapp.com/api/whoami)

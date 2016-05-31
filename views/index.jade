@@ -3,3 +3,15 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  p 
+    |This is a simple microservice that shows some info about the browser you are using. Click 
+    a(href='api/whoami') here 
+    |to use this API.
+  p 
+    |The specs of this app come from 
+    a(href='https://www.freecodecamp.com/challenges/request-header-parser-microservice') FreeCode Camp challenge
+  ul
+    li User Story: I can get the IP address, language and operating system for my browser..
+
+  p The source code of this service can be found on my 
+    a(href='https://github.com/clobrano/fcc-request-header-parser-microservice') GitHub account
